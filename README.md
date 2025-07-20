@@ -1,77 +1,69 @@
-# AI Chatbot with Gemini API Integration 🤖
+# 🤖 AI Chatbot
 
-A responsive AI chatbot web application built with a sleek interface, supporting real-time messaging, file uploads, and emoji reactions. Powered by Google's Gemini API, it delivers dynamic, context-aware responses to user interactions.
+🔗 [Live Demo](https://guptavaibhav654.github.io/ai-chatbot/)
 
-## ⚡ Features
+A web-based conversational AI chatbot powered by the **Google Gemini** generative language model. It allows users to interact through text, share files, and use emojis in a smooth, real-time chat experience.
 
-- 💬 **Interactive chat UI** – Send and receive messages seamlessly.
-- 📎 **File upload support** – Attach PDFs, images, and other files.
-- 😀 **Emoji reactions** – Express yourself with emojis.
-- 🔗 **Gemini API integration** – Generates intelligent AI responses.
-- 📱 **Responsive design** – Optimized for both desktop and mobile.
-- 🌙 **Theme support** – Light and dark mode toggle (optional).
+## 🚀 Features
 
-## 🛠️ Tech Stack
+- ✅ Clean, responsive chat UI
+- 📎 File attachment support (images)
+- 💬 Real-time AI responses via **Google Gemini API**
+- 😊 Emoji picker for expressive interaction
+- 🕓 Maintains chat history during the session
+- 📱 Toggleable popup chatbot interface
 
-- **Frontend**: HTML, CSS, JavaScript (vanilla or framework of your choice)
-- **Backend**: Node.js / Express or Flask / FastAPI
-- **AI Service**: Google Gemini generative language model API
-- **Version Control**: Git & GitHub
+## 🔧 Usage Instructions
+
+1. Clone or download this repository.
+2. Open `index.html` in any modern browser.
+3. Click the chat icon to launch the chatbot popup.
+4. Type a message and hit **Enter** or click **Send**.
+5. (Optional) Attach an image using the 📎 button.
+6. Use the emoji picker to insert emojis in messages.
+7. Receive real-time replies powered by Google Gemini.
+
+## 🛠️ Technologies Used
+
+- **Frontend:** HTML5, CSS3, JavaScript (ES6+)
+- **AI Engine:** Google Gemini Generative Language API
+- **Emoji Picker:** Emoji Mart JavaScript Library
 
 ## 📁 Project Structure
 
-/
-├── frontend/ # Client-side UI code
-│ ├── index.html
-│ ├── styles.css
-│ ├── script.js
-│ └── assets/
-├── backend/ # Server-side logic
-│ ├── server.js (or app.py)
-│ ├── routes/
-│ ├── controllers/
-│ └── .env # environment variables (not committed)
-├── README.md
-├── .gitignore
-└── package.json / requirements.txt
+├── index.html # Main chatbot UI
+├── style.css # Chatbot styling
+├── script.js # Core chatbot logic & API handling
+├── config.js # API key configuration
+└── .env # Environment secrets (not included in repo)
 
-## 🚀 Getting Started
+## 🔐 API Integration
 
-### Setup and Run Locally
+- The chatbot uses the **Google Gemini** generative language model.
+- Add your API key inside the `config.js` file:
+  ```javascript
+  const GEMINI_API_KEY = "your-api-key-here";
+Important: Do NOT upload your API key or .env file to a public repository.
 
-1. **Clone the repo**  
-   git clone https://github.com/guptavaibhav654/ai-chatbot.git
-   cd ai-chatbot
+## 📸 Screenshots
+You can add screenshots here using the Markdown format:
+<img width="688" height="688" alt="project 6" src="https://github.com/user-attachments/assets/217fea6e-1ac3-4d28-ab73-99b9a675ff2c" />
 
-Configure environment variables
-Create a .env in the backend/ folder:
 
-GEMINI_API_KEY=your_api_key_here
-(Replace with your actual Gemini API key)
+## 📝 License
+This project is open source and free to use under the MIT License.
 
-Start the server
+## 📌 Future Enhancements (Optional)
+ Dark/Light mode toggle
 
-Open frontend/index.html in your browser, or serve via a static server.
+ Persistent chat history (via localStorage or DB)
 
-🔗 Demo
-<img width="688" height="688" alt="project 6" src="https://github.com/user-attachments/assets/01ac04ab-1ecc-42af-b3f1-72960979fa58" />
+ Voice input (speech-to-text)
 
-✨ Improvements
-Add chat history with persistent storage (e.g., MongoDB or Firebase).
+ Text-to-speech for AI responses
 
-Enhance messages with Markdown support or rich media.
+ Customizable avatars and themes
 
-Integrate user authentication for personalized sessions.
-
-📝 License
-This project is licensed under the MIT License.
-
-📫 Contact
-GitHub: @guptavaibhav654
-
-Email: work.vaibhav06@gmail.com
-
-🙏 Acknowledgments
-Thanks to the Gemini API team for NLP support.
-
-Inspired by many open-source chatbot projects and UI libraries.
+## 🙋‍♂️ Author
+Vaibhav Gupta
+📧 work.vaibhav06@gmail.com
