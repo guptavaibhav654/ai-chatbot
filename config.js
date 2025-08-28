@@ -1,8 +1,8 @@
 // Configuration file for the AI chatbot
-// Add your API keys and other configurations here
+// Using environment variables for sensitive data
 
 const config = {
-    apiKey: 'YOUR_API_KEY_HERE', // Replace with your actual API key
+    apiKey: process.env.API_KEY, // Accessing API key from environment variables
 };
 
 export default config;
