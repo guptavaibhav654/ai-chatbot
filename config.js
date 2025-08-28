@@ -2,7 +2,7 @@
 // Using environment variables for sensitive data
 
 const config = {
-    apiKey: process.env.API_KEY, // Accessing API key from environment variables
+    apiKey: 'YOUR_ACTUAL_API_KEY', // Replace this with your actual API key
 };
 
 export default config;
