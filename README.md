@@ -1,6 +1,6 @@
 # 🤖 AI Chatbot
 
-🔗 [Live Demo](https://guptavaibhav654.github.io/ai-chatbot/)
+🔗 [Live Demo](https://ai-chatbot-6lw5.onrender.com)
 
 A web-based conversational AI chatbot powered by the **Google Gemini** generative language model. It allows users to interact through text, share files, and use emojis in a smooth, real-time chat experience.
 
