@@ -130,6 +130,7 @@ body.show-chatbot .chatbot-popup {
     flex-direction: column;
     scrollbar-width: thin;
     scrollbar-color: #ccccf5 transparent;
+    
 }
 
 .chat-body,
