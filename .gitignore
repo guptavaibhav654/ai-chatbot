@@ -1,2 +1,14 @@
-.env
+# Node.js dependencies
+node_modules/
 
+# Environment and keys
+.env
+config.js        # (if config.js contains sensitive API keys and you don't want them public)
+
+# System and IDE files
+.DS_Store
+*.log
+
+# Build/Output folders (if you use a bundler)
+dist/
+build/
